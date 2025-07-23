@@ -7,7 +7,9 @@
       "launchBrowser": false,
       "applicationUrl": "http://localhost:5000;https://localhost:5001;",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_Kestrel__Certificates__Default__Path": "ssl/localhost.pem",
+        "ASPNETCORE_Kestrel__Certificates__Default__KeyPath": "ssl/localhost-key.pem"
       }
     }
   }
