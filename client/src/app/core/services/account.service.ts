@@ -34,7 +34,7 @@ export class AccountService {
     );
   }
   logout() {
-    return this.http.post(this.baseUrl + 'account/logout', {withCredentials: true});
+    return this.http.post(this.baseUrl + 'account/logout', {});
   }
 
   updateAddress(address: Address) {
